@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ortensia-genetic-parallel-backtest-algorithm-api"
+version = "0.1.0"
+description = ""
+authors = ["v3vapp <v3v.app@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ortensia_genetic_parallel_backtest_algorithm_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
